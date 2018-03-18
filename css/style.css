@@ -1,0 +1,40 @@
+
+
+@font-face {
+    font-family: "ttf";
+    src: url(../font/Tr2n.ttf);
+}
+
+body {
+    font-family: ttf, sans-serif;
+    background-image: url(../image/index.png);
+    background-repeat: no-repeat;
+
+}
+
+#top {
+    margin-top: 15%;
+    text-align: center;
+}
+
+#sub-title {
+    color: aquamarine;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 5em;
+}
+
+footer {
+    bottom: 0;
+    font-family: monospace;
+    color: aquamarine;
+}
+
+#coming-soon {
+    text-align: center;
+    color: aquamarine;
+    margin:0 auto;
+}
