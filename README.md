@@ -1,0 +1,1 @@
+# Arukas-x-function
