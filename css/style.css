@@ -1,72 +1,57 @@
-@font-face {
-    font-family: "ttf";
-    src: url(../font/Tr2n.ttf);
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: aquamarine;
 }
 
-body,
-html {
-    height: 100%;
-    margin: 0;
+p {
+  line-height: 2rem;
 }
 
-body {
-    font-family: ttf, sans-serif;
-    background-image: url(../image/index.png);
-    background-repeat: no-repeat;
-
+.button-collapse {
+  color: #26a69a;
 }
 
-.wrapper {
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
     width: 100%;
-}
+  }
 
-.wrapper div {
-    width: 80%;
-    margin: 0 auto;
-}
-
-#header-content{
-    display: flex;
-    justify-content: space-between;
-}
-
-#twitter-icon {
-    margin-top: 30px;
-}
-
-#back-video {
-    background-image: url(../image/carnagelike-gif.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-shadow: inset 0 0 0 2000px rgba(73, 156, 216, 0.58);
-    height: 500px;
-}
-
-#sub-title {
-    text-align: center;
-    color: aquamarine;
-    font-size: 1.5em;
-}
-
-h1 {
-    color: aquamarine;
-    font-size: 2em;
-}
-
-footer {
-    bottom: 0;
-    color: aquamarine;
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
     position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
 }
 
-#coming-soon {
-    text-align: center;
-    color: aquamarine;
-    margin: 0 auto;
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 }
 
-#footer-content {
-    text-align: right;
-    margin-bottom: 10px;
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
